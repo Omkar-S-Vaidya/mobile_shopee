@@ -1,0 +1,29 @@
+/* img link */
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+  padding: 15px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.5; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+

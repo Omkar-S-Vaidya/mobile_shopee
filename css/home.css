@@ -1,0 +1,54 @@
+/* menu bar */
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #03f0fc;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+.topnav a:hover {
+ 
+  background-color: #33ff00;
+  color: white;
+  min-height: 25px;
+}
+
+.topnav a.active {
+  background-color: #33ff00;
+  color: white;
+  min-height: 27px;
+}
+.topnav a.lgot {
+  position: absolute;
+  right: 0;
+}
+.topnav a.lgot:hover {
+  background-color: #03f0fc;
+  color: black;
+}
+.topnav a.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+}
+.topnav a.logo:hover {
+  background-color: #03f0fc;
+  color: black;
+}
+
+
